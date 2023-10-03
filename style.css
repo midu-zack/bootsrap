@@ -5,25 +5,10 @@
     box-sizing: border-box;
 
  }
- .banner{
-     display: flex;
-     align-items: flex-start;
-     justify-content: center;
-     height: 600px;
-     width:100%;
-     object-fit: contain;
-      
-     background-repeat: repeat;
-     background-size: cover;
-     background-position: bottom;
-     background-image: url(imges/GOOSE-Monitor_lg.jpg);
- }
- /* .row h1{
-  max-width: 80%;
-  color: white;
- }
-  */
-
+  
+.banner{
+  position: relative;
+}
 .alignright{
   float: right;
   margin: 15px;
@@ -64,40 +49,22 @@
     background-image: url(imges/Keep-connected-graphic\ -\ Copy.jpg);
   }
   @media (max-width:320px){
-    .banner{
-      /* height: auto; */
-  }
+  
   }
   
   @media (max-width:789px){
     .top-nav{
       display: none;
     }
-    .banner{
-      height: 200px;
-     }
-     
-  }
   
- @media (max-width:992px){
-    
-   /* .second-nav{
-    height: 89px;
-    margin: auto;
-     display: inline-flex;
-    justify-items: center; 
-    align-items: center;
-   } */
-
-    
-    .banner{
-      height: 450px;   
+  }
+  @media (max-width:563px){
+    .banner img{
+      height: 233px;
+       
     }
-    .comps{
-      height: 400px;
-    }
+  }
 
- }
 @media (max-width:1200px) {
   .alignright{
     display: none;
@@ -110,11 +77,22 @@
   }
 }
 @media(max-width:991px){
-  /* .using-img{
-    transform: rotate(90deg);
-  } */
+  
   .center{
     color: black;
   }
+  .comps{
+    height: 400px;
+  }
+  .second-nav{
+    height: 5rem;
+  }
+  .second-nav img{
+    height: 3rem;
+    
+  }
+
 }
+ 
+
   
