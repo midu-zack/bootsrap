@@ -1,0 +1,35 @@
+@media (max-width:789px){
+    .top-nav{
+      display: none;
+    }
+  }
+  @media (max-width:563px){
+    .banner img{
+      height: 233px;
+    }
+  }
+@media (max-width:1200px) {
+  .alignright{
+    display: none;
+  }
+}
+@media(max-width:1286px){
+  .go{
+    display: none;
+  }
+}
+@media(max-width:991px){  
+  .center{
+    color: black;
+  }
+  .comps{
+    height: 400px;
+  }
+  .second-nav{
+    height: 5rem;
+  }
+  .second-nav img{
+    height: 3rem;
+  }
+
+}

@@ -48,51 +48,18 @@
     background-position: left top;
     background-image: url(imges/Keep-connected-graphic\ -\ Copy.jpg);
   }
-  @media (max-width:320px){
   
-  }
-  
-  @media (max-width:789px){
-    .top-nav{
-      display: none;
-    }
-  
-  }
-  @media (max-width:563px){
-    .banner img{
-      height: 233px;
-       
-    }
-  }
+ .latest a{
+  text-decoration: none;
+  color: #00ccff;
 
-@media (max-width:1200px) {
-  .alignright{
-    display: none;
-  }
-  
+ }
+ .latest h3{
+  color: #005495;
+  font-weight: bold;
+ }
+.end{
+  float: right;
+  margin: 15px;
 }
-@media(max-width:1286px){
-  .go{
-    display: none;
-  }
-}
-@media(max-width:991px){
-  
-  .center{
-    color: black;
-  }
-  .comps{
-    height: 400px;
-  }
-  .second-nav{
-    height: 5rem;
-  }
-  .second-nav img{
-    height: 3rem;
-    
-  }
-
-}
- 
-
   
