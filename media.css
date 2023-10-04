@@ -17,18 +17,19 @@
   .go{
     display: none;
   }
+  .line{
+    display: none;
+  }
 }
 @media(max-width:991px){  
   .center{
     color: black;
   }
+  
   .comps{
     height: 400px;
   }
-  .second-nav{
-    height: 5rem;
-  }
-  .second-nav img{
+  .logo-img{
     height: 3rem;
   }
 

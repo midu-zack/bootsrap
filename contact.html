@@ -27,20 +27,84 @@
     
      
           <!--navbar-->
-           
-          <header class="header  ">
-          <nav class="navbar second-nav navbar-expand-lg  bg-white p-3 style="width: 100%;  ">
-            <div class="container-fluid m-4 col-md  align-items-center m-auto ">
+
+          <nav class="navbar  bg-white">
+            <div class="container-fluid  m-4 col-md  align-items-center m-auto ">
               <a class="navbar-brand" href="#">
-                <img src="imges/SISCO-LOGO-NEW.png" class="img-fluid" alt="">
+                <img src="imges/SISCO-LOGO-NEW.png" class="img-fluid logo-img" alt="">
+              </a>
+
+            <button class="btn float-end d-lg-none " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class=" fw-bold fs-3 fa-solid fa-bars"></i></button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header bg-primary">
+            <h5 id="offcanvasRightLabel"></h5>
+            <button type="button" class="btn-close btn-close-white text-reset  " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-primary ">
+              <div  class=" collapse  d-block  "   id="offcanvasRight">
+               <ul class="navbar-nav fw-bold text-dark ms-auto ">
+                <li class="nav-item">
+                  <a class="nav-link  text-uppercase"  href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pruduct
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    
+                  </ul>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase " href="#">services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#">knowledge center</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase " href="#">news</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase " href="partner.html">partners</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="contact.html">contact</a>
+                </li>
+              </ul>
+            </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+
+
+
+ 
+
+
+
+
+
+
+
+           
+        <!-- <header class="header  ">
+          <nav class="navbar   navbar-expand-lg  bg-white " style="width: 100%;  ">
+            <div class="container-fluid  m-4 col-md  align-items-center m-auto ">
+              <a class="navbar-brand" href="#">
+                <img src="imges/SISCO-LOGO-NEW.png" class="img-fluid logo-img" alt="">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-    
      
-              <div  class=" collapse navbar-collapse  " id="navbarNav">
-                <ul class="navbar-nav fw-bold text-dark ms-auto ">
+              
+              <div  class=" collapse navbar-collapse "  id="navbarNav">
+                <ul class="navbar-nav fw-bold text-dark ms-auto">
                   <li class="nav-item">
                     <a class="nav-link  text-uppercase"  href="about.html">about</a>
                   </li>
@@ -67,7 +131,7 @@
             </div>
           </nav>
     
-        </header>
+        </header> -->
 
         <section>
             <div id="about">
@@ -91,7 +155,10 @@
               </div>
           </section>
 
-          <div class="container p-5">
+
+        <section>
+
+          <div class="container m-0 p-5">
               
             <h2 class=" fs-1" style="color: #005495;" >SALES & PRODUCT QUESTIONS</h2>
     
@@ -99,8 +166,8 @@
 
             </p>
 
-           <div class="container  latest pt-5 d-flex"   >
-                <div class="col-12 m-auto ">
+           <div class="  latest pt-5 m-0 d-flex"   >
+                <div class=" ">
                   <h3  >BEFORE YOU FILL OUT THE FORM…</h3>
                   <h4 class="fw-medium" >SISCO is a solutions provider for the electric energy industry.</h4>
                     
@@ -113,8 +180,17 @@
             </div>
           </div>  
 
+        </section>
+
+        
+
+
             <form class="container d-flex ">
-                <div class="mb-3 p-5 col-md-6">
+              <div class="container">
+                <div class="row">
+
+               
+                <div class="mb-3  col-xxl-6 col-lg-12  ">
                   <label for="exampleInputEmail1" class="form-label">Name*</label>
                   <input type="text" style="background-color:#f3f3f3;" class="form-control" id="exampleInputname" aria-describedby="namehelp">
                         <br>
@@ -130,64 +206,66 @@
                   <label for="exampleInputEmail1" class="form-label">Subject </label>
                   <input type="email" style="background-color:#f3f3f3;" class="form-control" id="exampleInputsubject" aria-describedby="SubjectHelp">
 
-                  
-
+                
                 </div>
 
-                 
-
                 
-                <div class="mb-3 col-md-6 p-5 ">
+                <div class="mb-3 col-xxl-6 col-lg-12  ">
                   <label for="exampleInputMessage" class="form-label " >Message</label>
                   <textarea class="form-control" style="background-color:#f3f3f3;" id="exampleFormControlTextarea1" rows="17"></textarea>
 
                   <div class=" pt-5 col-12 text-md-start ">
                     <button type="submit" class="btn  text-white fw-bold   text-uppercase" style= "letter-spacing: 0.2rem; background-color: #005495;">Send</button>
                   </div> 
+                 </div>
+
+                 </div>
                 </div>
                 
               </form>
 
 
-              <sectio n >
 
-                <div class="">
-                  <img class="  position-absolute " src="imges/grad-wide-2.png" width="100%"  alt="">
+                <section>
+
                 
-                  <div class="position-relative text-white d-flex pt-5  ">
-                    <div class="col-md-6 text-sm-end pt-5 ">
-                      <p>
-                      <img src="imges/v-rule.png" class="float-end ms-3 " alt="">
-                     </p>
-                     <h2 class="text-end lh-5 fs-1  fw-bolder"  > COSTUMER SUPPORT</h2>
-                     <P class="text-end lh-5 p-0 fw-medium  ">
+                      <div class="clos">
                    
-                      
-                      Active costumers in need of support
-                      <br>
-                      <a  style="text-decoration: none; color:white" href=""><strong >support@sisconet.com</strong></a>
-                     </P>
-                    </div>
-
-
-                    <div class="col-md-6 pt-5  ">
-
-                      <img src="imges/Customer-Support-Icon.png" alt="">
-  
-                     </div>
- 
-                  </div>
+                <div class="container pt-5">
+                  <div class="row pt-5  ">
                   
+                    <div class=" col-md-12 text-white col-lg-6 ">
+                      <p>
+                        <img  src="imges/v-rule.png"  class="float-end ms-3 line"  alt="">
+                       </p>
+                       <h3 class="text-end text-center text-lg-end lh-5 fs-1  fw-bolder" > COSTUMER SUPPORT</h3>
+                       <P class="text-end text-center text-lg-end lh-5 p-0 fw-medium ">
+                     
+                        
+                        Active costumers in need of support
+                        <br>
+                        <a  style="text-decoration: none; color:white" href=""><strong >support@sisconet.com</strong></a>
+                       </P>
+                    </div>
+                    <div class="img-fluid  text-center text-lg-start col-md-12 col-lg-6 ">
+                      <img class="" src="imges/Customer-Support-Icon.png" alt="">
+                    </div>
+                    
+                  </div>
                 </div>
-              </sectio>
+              </div>
+              </section>
+
+
+              
 
 
 
 
-              <footer style="background-color:#ccc;" class="mt-5 pt-5">
-                <div class="container p-5 mt-5  justify-content-md-end" >
-                  <div class="row">
-                     <div class="col-sm-4">
+              <footer style="background-color:#ccc;  ">
+                <div class="container p-5  " >
+                  <div class="row  m-2 text-start ">
+                     <div class=" col-sm-12 col-md-6 col-lg-4 col-xxl-4  pt-3 ">
                       <p class="  fw-bold" >
                         <a  class="text-decoration-none text-black fs-6" href="#">ABOUT</a>
                         <br>
@@ -200,7 +278,7 @@
                         <a  class="text-decoration-none text-black fs-6" href="#">NEWS</a>
                       </p>
                      </div>
-                     <div class="col-sm-4">
+                     <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-4 pt-3 ">
                       <p class="fw-bold ">
                         <a  class="text-decoration-none text-black fs-6" href="#">PARTNER</a>
                         <br>
@@ -213,7 +291,7 @@
                         <a  class="text-decoration-none text-black fs-6" href="#">PRIVECY</a>
                       </p>
                      </div>
-                     <div class="col-sm-4">
+                     <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-4 pt-3 ">
                       <p class="">
                         <strong>HEADQUARTERS</strong>
                         <br>
@@ -230,18 +308,25 @@
                          </a>
                       </p>
                      </div>
-          
+    
+    
+    
                   </div>
                 </div>
-          
-                <!-- <div class="container">
+    
+    
+                 <div class="container">
                   <div class="row">
+                    <div class="col-sm-12 col-md-6 col-xxl-6 " style=" font-size: 10px;">
                     <p>
-                      © Copyright 2022 SISCO, Inc. All Rights Reserved. All company names, product names, trademarks, and registered trademarks are the property of their respective companies.
+                      © Copyright 2022 SISCO, Inc. All Rights Reserved. All company names, product names, trademarks, and
+                    
+                       registered trademarks are the property of their respective companies.
                     </p>
                   </div>
-                </div> -->
-              </footer>
+                  </div>
+                </div>
+              </footer> 
  
                   
                  

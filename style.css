@@ -62,4 +62,15 @@
   float: right;
   margin: 15px;
 }
+
+.clos{
+   
   
+  width: 100%;
+  height: 380px;
+  background-repeat: repeat;
+  background-position: left top;
+  background-image: url(imges/grad-wide-2.png);
+}
+  
+ 
