@@ -72,5 +72,17 @@
   background-position: left top;
   background-image: url(imges/grad-wide-2.png);
 }
+
+
+.hide {
+  display: none;
+  list-style: none;
+
+}
+    
+.nav-link:hover + .hide {
+  display: block;
+  
+}
   
  

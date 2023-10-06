@@ -28,11 +28,58 @@
      
           <!--navbar-->
 
-          <nav class="navbar  bg-white">
-            <div class="container-fluid  m-4 col-md  align-items-center m-auto ">
+        <nav class="navbar  bg-white p-3 ">
+          <div class="container-fluid  m-4 col-md d-inline-flex align-items-center m-auto ">
               <a class="navbar-brand" href="#">
                 <img src="imges/SISCO-LOGO-NEW.png" class="img-fluid logo-img" alt="">
               </a>
+
+
+              <div  class= "d-none  d-lg-block" >
+                <ul  class="list-unstyled   gap-4 fw-bold text-dark d-inline-flex ">
+                  <li class="nav-item ">
+                    <a class="nav-link  text-uppercase"  href="about.html">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase " href="#">products</a>
+                      <ul class="hide bg-dark text-white p-2" >
+                        <option selected>PRODUCT</option>
+                        <option  >AX-s4 6185</option>
+                        <option  >AX-s4-ICCP</option>
+                        <option  >CIM ADAPTER</option>
+                        <option  >COMTRADE UTILITY</option>
+                        <option  >C-RAS</option>
+                        <option  >GOOSE BLASTER</option>
+                        <option  >GOOSE MONITOR </option>
+                        <option  >ICCP PLUS</option>
+                        <option  >61850 PLUS</option>
+                        <option  >R-GOOSE GATEWAY</option>
+                        <option  >UAP</option>
+
+                      </ul>
+
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase " href="#">services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="#">knowledge center</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase " href="#">news</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-uppercase " href="partner.html">partners</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="contact.html">contact</a>
+                  </li>
+                </ul>
+              </div>
+
+
+              
+              
 
             <button class="btn float-end d-lg-none " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class=" fw-bold fs-3 fa-solid fa-bars"></i></button>
 
@@ -41,23 +88,31 @@
             <h5 id="offcanvasRightLabel"></h5>
             <button type="button" class="btn-close btn-close-white text-reset  " data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body bg-primary ">
+            <div class="offcanvas-body bg-primary text-warning ">
               <div  class=" collapse  d-block  "   id="offcanvasRight">
-               <ul class="navbar-nav fw-bold text-dark ms-auto ">
+               <ul class="navbar-nav fw-bold   ">
                 <li class="nav-item">
                   <a class="nav-link  text-uppercase"  href="about.html">about</a>
                 </li>
-                <li class="nav-item">
-                  <a class=" nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Pruduct
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    
-                  </ul>
+                <li class="nav-item ">
+                   
+                  <select class="select bg-primary border-0 fs-6 fw-bold" aria-label="Default select example">
+                    <option selected>PRODUCT</option>
+                    <option value="1">AX-s4 6185</option>
+                    <option value="2">AX-s4-ICCP</option>
+                    <option value="3">CIM ADAPTER</option>
+                    <option value="1">COMTRADE UTILITY</option>
+                    <option value="2">C-RAS</option>
+                    <option value="3">GOOSE BLASTER</option>
+                    <option value="1">GOOSE MONITOR </option>
+                    <option value="2">ICCP PLUS</option>
+                    <option value="3">61850 PLUS</option>
+                    <option value="1">R-GOOSE GATEWAY</option>
+                    <option value="2">UAP</option>
+                     
+                  </select>
                 </li>
-                </li>
+                
                 <li class="nav-item">
                   <a class="nav-link text-uppercase " href="#">services</a>
                 </li>
@@ -73,65 +128,16 @@
                 <li class="nav-item">
                   <a class="nav-link text-uppercase" href="contact.html">contact</a>
                 </li>
-              </ul>
-            </div>
+               </ul>
+                </div>
               </div>
             </div>
-          </div>
+          </div>  
+ 
         </nav>
 
-
-
-
  
-
-
-
-
-
-
-
-           
-        <!-- <header class="header  ">
-          <nav class="navbar   navbar-expand-lg  bg-white " style="width: 100%;  ">
-            <div class="container-fluid  m-4 col-md  align-items-center m-auto ">
-              <a class="navbar-brand" href="#">
-                <img src="imges/SISCO-LOGO-NEW.png" class="img-fluid logo-img" alt="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-     
-              
-              <div  class=" collapse navbar-collapse "  id="navbarNav">
-                <ul class="navbar-nav fw-bold text-dark ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link  text-uppercase"  href="about.html">about</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase " href="#">products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase " href="#">services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">knowledge center</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase " href="#">news</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase " href="partner.html">partners</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="contact.html">contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    
-        </header> -->
+            
 
         <section>
             <div id="about">
