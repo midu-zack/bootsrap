@@ -2,6 +2,21 @@
     .top-nav{
       display: none;
     }
+    
+  }
+  @media (min-width:0px )and (max-width:320px){
+    .clps-img h1{
+      font-size: medium;
+    }
+  }
+  @media (min-width:375px)and (max-width:426px){
+    .clps-img h1{
+     font-size: large;
+    }
+    .clps-img button{
+      
+    
+    }
   }
   @media (max-width:563px){
     .banner img{
